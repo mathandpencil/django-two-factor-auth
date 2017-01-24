@@ -10,7 +10,7 @@ setup(
     url='https://github.com/Bouke/django-two-factor-auth',
     download_url='https://pypi.python.org/pypi/django-two-factor-auth',
     license='MIT',
-    packages=find_packages(exclude=('example', 'tests')),
+    packages=find_packages(),
     install_requires=[
         'Django>=1.8',
         'django_otp>=0.3.4,<0.99',
